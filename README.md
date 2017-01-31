@@ -52,10 +52,10 @@ It should support two operations:
 
 ## Todo
 
-[] Recalculate the score at end of each frame - this should be filled in as another field in the game struct (note that this means that the running score should sometimes return nothing until able to calculate - ie strike/spare - only calculates first strike on next ball, then updates) - note how
+- [ ] Recalculate the score at end of each frame - this should be filled in as another field in the game struct (note that this means that the running score should sometimes return nothing until able to calculate - ie strike/spare - only calculates first strike on next ball, then updates) - note how
 a live bowling scoresheet works.
-[] This is for one player's game: should notify on end of frame so player can be switched.
-[] Need to allow multiple players.
-[] A player should be able to start a game.
-[] Other players may then join that game (via invite as well as just available? Set number of players initially?)
-[] ...later - build a game - "just" needs to be completely dumb - know how many pins left, & reset them when necessary, and send how many are knocked over. Physics/UI are what are important.
+- [ ] This is for one player's game: should notify on end of frame so player can be switched.
+- [ ] Need to allow multiple players.
+- [ ] A player should be able to start a game.
+- [ ] Other players may then join that game (via invite as well as just available? Set number of players initially?)
+- [ ] ...later - build a game - "just" needs to be completely dumb - know how many pins left, & reset them when necessary, and send how many are knocked over. Physics/UI are what are important.
