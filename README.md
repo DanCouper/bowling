@@ -59,3 +59,16 @@ a live bowling scoresheet works.
 - [ ] A player should be able to start a game.
 - [ ] Other players may then join that game (via invite as well as just available? Set number of players initially?)
 - [ ] ...later - build a game - "just" needs to be completely dumb - know how many pins left, & reset them when necessary, and send how many are knocked over. Physics/UI are what are important.
+
+**Stage 1**: Implement the Kata. It should pass the test suite provided on Exercism.
+**Stage 2**: Modify to generate a running score chart; the data structure it produces should mirror a bowling card.
+**Stage 3**: This implements a single game for a single player. Implementation should now supervised isolated application.
+**Stage 4**: Implement a game server that allows multiple players (stub players).
+**Stage 5**: Allow multiple games (should follow naturally from stage 4).
+**Stage 6**: Implement players as processes.
+**Stage 7**: Implement a lobby where players can start and join games.
+**Stage 8**: Implement serialization of relevant state, allowing it to be used over sockets.
+**Stage 9**: Web frontend - use previous in a Phoenix app, and send receive via channels.
+**Stage 10**: Game UI - build rudimentary game UI. Could be JS, could be ASM, etc.
+**Stage 11**: Investigate & implement auth.
+**Stage 12**: Investigate saving state - what should be saved, when.
