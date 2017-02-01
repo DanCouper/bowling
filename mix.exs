@@ -18,16 +18,10 @@ defmodule Bowling.Mixfile do
     [extra_applications: [:logger]]
   end
 
-  # Dependencies can be Hex packages:
-  #
-  #   {:my_dep, "~> 0.3.0"}
-  #
-  # Or git/path repositories:
-  #
-  #   {:my_dep, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
-  #
-  # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:credo, "~> 0.6.0", only: [:dev, :test]},
+      {:dialyxir, "~> 0.4.3", only: [:dev], runtime: false}
+    ]
   end
 end
