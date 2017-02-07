@@ -1,6 +1,6 @@
 defmodule Bowling.Scorecard.RunningScoreTest do
   use ExUnit.Case
-  alias Bowling.Scorecard.RunningScore, as: RunningScore
+  alias Bowling.Scorecard.Score, as: RunningScore
 
   test "calculates running scores for a non-scoring game" do
     input  = %{

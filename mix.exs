@@ -21,9 +21,7 @@ defmodule Bowling.Mixfile do
   defp deps do
     [
       {:credo, "~> 0.6.0", only: [:dev, :test]},
-      {:dialyxir, "~> 0.4.3", only: [:dev], runtime: false},
-      {:flow, "~> 0.11.0"},
-      {:gen_stage, "~> 0.11.0"}
+      {:dialyxir, "~> 0.4.3", only: [:dev], runtime: false}
     ]
   end
 end
